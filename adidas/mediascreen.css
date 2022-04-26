@@ -1,0 +1,43 @@
+@media screen and (max-width: 1200px) {
+    
+    * {
+        /* transition: 1s; */
+    }
+
+
+    .header__static-container {
+        background-color: yellowgreen;
+
+    }
+
+    .search-input__wrapper {
+        display: none;
+    }
+
+}
+    
+
+
+@media screen and (max-width: 910px) {
+    .header__static-container__menu_bottom {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .header__static-container {
+        background-color: pink;
+
+    }
+
+    .bottom_button:hover {
+        border-bottom: none;
+    }
+
+    .header__static-container__menu_top {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+}

@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header__static-container {
+  position: fixed;
+  background-color: blanchedalmond;
+  top: 0;
+  color: antiquewhite;
+  width: 100%;
+  z-index: 2;
+  min-height: 70px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header__static-container_logo {
+  height: 70px;
+  width: 120px;
+  position: absolute;
+  padding: 10px 0px 10px 40px;
+}
+
+.header__static-container_item {
+  margin-left: 10px;
+}
+
+.header__logo {
+  height: 70px;
+  width: 120px;
+  position: absolute;
+  padding: 10px 0px 10px 40px;
+}
+
+.language_selector {
+  margin-right: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-width: 70px;
+}
+
+.down_arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.static-container_top {
+  margin: 10px 10px;
+}
+
+.static-container_last-top {
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.bottom_actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bottom_button {
+  margin: 0px 20px;
+}
+
+.search-input__wrapper {
+  width: 100%;
+  position: relative;
+}
+
+.search-input__wrapper_input {
+  width: inherit;
+  height: inherit;
+  padding: 0 32px 0 11px;
+  background: #ebedee;
+  border: 1px solid transparent;
+  outline: none;
+}
+
+.search-input__wrapper_icon-search {
+  position: absolute;
+  top: 3px;
+  bottom: 0;
+  left: auto;
+  right: 8px;
+  margin: auto;
+}
+
+.content {
+  height: 3000px;
+}
+/*# sourceMappingURL=new.css.map */

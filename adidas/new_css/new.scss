@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+}
+.header {
+
+		&__static-container {
+
+        position: fixed;
+        background-color: blanchedalmond;
+        top: 0;
+        color: antiquewhite;
+        width: 100%;
+        z-index: 2;
+        min-height: 70px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+
+			&_logo {
+                height: 70px;
+                width: 120px;
+                position: absolute;
+                padding: 10px 0px 10px 40px;
+			}
+
+			&_item {
+                margin-left: 10px;
+			}
+		}
+
+		&__logo {
+            height: 70px;
+            width: 120px;
+            position: absolute;
+            padding: 10px 0px 10px 40px;
+		}
+}
+.language {
+
+		&_selector {
+            margin-right: 50px;
+            display: flex;
+            justify-content: space-between;
+            min-width: 70px;
+		}
+}
+.down {
+
+		&_arrow {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+		}
+}
+.static-container {
+
+		&_top {
+            margin: 10px 10px;
+		}
+
+		&_last-top {
+            margin-right: 20px;
+            margin-left: 10px;
+		}
+}
+.bottom {
+
+		&_actions {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+		}
+
+		&_button {
+            margin: 0px 20px;
+		}
+
+		&_icons {
+		}
+
+		&_icon {
+		}
+}
+.search-input {
+
+		&__wrapper {
+            width: 100%;
+            position: relative;
+
+			&_input {
+                width: inherit;
+                height: inherit;
+                padding: 0 32px 0 11px;
+                background: #ebedee;
+                border: 1px solid transparent;
+                outline: none;
+			}
+
+			&_icon-search {
+                position: absolute;
+                top: 3px;
+                bottom: 0;
+                left: auto;
+                right: 8px;
+                margin: auto;
+			}
+		}
+}
+.content {
+    height: 3000px;
+}
